@@ -18,7 +18,7 @@ const HooksIceCreamContainer = () => {
       <h1 style={{ color: 'blue', fontSize: '30px', fontWeight: 'bold' }}>
         With DISPATCH and SELECTOR HOOKS
       </h1>
-      <h2>Num of cakes {numOfIceCreams}</h2>
+      <h2>Number of iceCream {numOfIceCreams}</h2>
       <button onClick={handleBuyIceCream}>Buy cake</button>
     </div>
   );
