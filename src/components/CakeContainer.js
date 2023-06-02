@@ -6,6 +6,9 @@ function CakeContainer(props) {
   console.log(props);
   return (
     <div>
+      <h1 style={{ color: 'blue', fontSize: '30px', fontWeight: 'bold' }}>
+        With mapStateToProps and mapDispatchToProps{' '}
+      </h1>
       <h2>Number of cakes {props.numOfCakes}</h2>
       <button onClick={props.buyCake}>Buy Cake</button>
     </div>
