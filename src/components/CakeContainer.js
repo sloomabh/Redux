@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { buyCake } from '../redux';
 
 function CakeContainer(props) {
-  console.log(props);
+  //console.log(props);
   return (
     <div>
       <h1 style={{ color: 'blue', fontSize: '30px', fontWeight: 'bold' }}>
